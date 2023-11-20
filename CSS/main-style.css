@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image: url("../IMAGES/bg.png");
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	color: #0a504e;
+}
+
+nav
+{ 
+	position: fixed;
+	width: 100%;
+	left: 0; top: 0;
+	padding: 5px 0;
+	background-color: rgba(228,200,41,0.90);
+	box-shadow: 0 5px 10px #a59421;
+	border: none;
+	z-index: 9999998;
+	
+}
+section
+{
+	min-height: 800px;
+	padding: 100px 0
+}
+
+footer
+{
+	padding: 50px 0;
+	background-color: #c84e32;
+}
+nav .menu a
+{
+	text-decoration: none; 
+	color: #0E5956; 
+	font-weight: 800;
+	padding:10px  30px;
+	font-size: 20px
+}
+
+nav .menu a:hover
+{
+	border-bottom: 4px solid rgba(200,78,50,1.00)
+}
+
+.btn-primary
+{
+	background-color: #C84E32;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #06504d;
+	font-size: 20px;
+}
+.btn-primary:hover{
+	background: #7AA3FF;}
+#uudai
+{
+	background-image: url("../IMAGES/Group 20.png");
+	background-repeat: no-repeat;
+	background-position: right center
+}
+#caidat
+{
+	background-image: url("../IMAGES/52.png");
+	background-repeat: no-repeat;
+	background-position: left center
+	
+}
+#sanpham-chay .item img{width: 70%; height: auto; margin: auto;}
